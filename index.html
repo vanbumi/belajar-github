@@ -19,7 +19,113 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="headers">
+      <div class="row">
+        <img
+          src="data:image/jpeg;base64,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"
+          alt=""
+        />
+        <h1>Application of Hospital</h1>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">SIM RUMAH SEHAT</h1>
+        <p class="lead">
+          This is a simple hero unit, a simple jumbotron-style component for
+          calling extra attention to featured content or information.
+        </p>
+        <hr class="my-4" />
+        <p>
+          It uses utility classes for typography and spacing to space content
+          out within the larger container.
+        </p>
+        <a class="btn btn-success btn-lg" href="#" role="button"
+          >Detil Disini</a
+        >
+        <a class="btn btn-warning btn-lg" href="#" role="button">Presentasi</a>
+        <a class="btn btn-info btn-lg" href="#" role="button">Presentasi</a>
+      </div>
+
+      <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+      </div>
+
+      <div class="row">
+        <div class="col-sm">col satu</div>
+        <div class="col-sm">col dua</div>
+        <div class="col-sm">col dua</div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="w-100"></div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
